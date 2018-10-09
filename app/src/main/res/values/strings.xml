@@ -1,0 +1,123 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Milwaukee Tour Guide</string>
+
+    <!-- Category name for the Things To Do attractions [CHAR LIMIT=20] -->
+    <string name="category_things">Things To Do</string>
+
+    <!-- Category name for the Breweries attractions[CHAR LIMIT=20] -->
+    <string name="category_breweries">Breweries</string>
+
+    <!-- Category name for the Bars attractions [CHAR LIMIT=20] -->
+    <string name="category_bars">Bars</string>
+
+    <!-- Category name for the Restaurants attractions [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Bars Category Name Strings-->
+    <string name="bars_name_one">Just Art\'s Saloon</string>
+    <string name="bars_name_two">Barnacle Bud\'s</string>
+    <string name="bars_name_three">Up-Down</string>
+    <string name="bars_name_four">Steny\'s Tavern and Grill</string>
+    <string name="bars_name_five">Tin Widow</string>
+    <string name="bars_name_six">Boone and Crockett</string>
+    <string name="bars_name_seven">Milwaukee Sail Loft</string>
+    <string name="bars_name_eight">Bugsy\'s Back Alley Speakeasy</string>
+    <string name="bars_name_nine">The Drunk Uncle</string>
+    <string name="bars_name_ten">Blu</string>
+    <string name="bars_name_eleven">Bryant\'s Cocktail Lounge</string>
+    <string name="bars_name_twelve">South Shore Park Terrace Beer Garden</string>
+
+    <!-- Bars Category Address Strings-->
+    <string name="bars_address_one">181 S 2nd St, Milwaukee, WI 53204</string>
+    <string name="bars_address_two">1955 S Hilbert St, Milwaukee, WI 53207</string>
+    <string name="bars_address_three">615 E Brady St, Milwaukee, WI 53202</string>
+    <string name="bars_address_four">800 S 2nd St, Milwaukee, WI 53204</string>
+    <string name="bars_address_five">703 S 2nd St, Milwaukee, WI 53204</string>
+    <string name="bars_address_six">818 S Water St, Milwaukee, WI 53204</string>
+    <string name="bars_address_seven">649 E Erie St, Milwaukee, WI 53202</string>
+    <string name="bars_address_eight">218 N Water St, Milwaukee, WI 53202</string>
+    <string name="bars_address_nine">1902 S 68th St, West Allis, WI 53219</string>
+    <string name="bars_address_ten">424 E Wisconsin Ave, Milwaukee, WI 53202 (23rd Floor)</string>
+    <string name="bars_address_eleven">1579 S 9th St, Milwaukee, WI 53204</string>
+    <string name="bars_address_twelve">2900 S Shore Dr, Milwaukee, WI 53207</string>
+
+    <!-- Restaurants Category Name Strings-->
+    <string name="restaurants_name_one">La Casa De Alberto</string>
+    <string name="restaurants_name_two">Oscar\'s Pub and Grill</string>
+    <string name="restaurants_name_three">Tenuta\'s Italian Restaurant</string>
+    <string name="restaurants_name_four">Santino\'s Little Italy</string>
+    <string name="restaurants_name_five">Café Lulu</string>
+    <string name="restaurants_name_six">Lucky Ginger</string>
+    <string name="restaurants_name_seven">Harbor House</string>
+    <string name="restaurants_name_eight">Bacchus</string>
+
+    <!-- Restaurants Category Address Strings-->
+    <string name="restaurants_address_one">624 W National Ave, Milwaukee, WI 53204</string>
+    <string name="restaurants_address_two">1712 W Pierce St, Milwaukee, WI 53204</string>
+    <string name="restaurants_address_three">2995 S Clement Ave, Milwaukee, WI 53207</string>
+    <string name="restaurants_address_four">352 E Stewart St, Milwaukee, WI 53207</string>
+    <string name="restaurants_address_five">2265 S Howell Ave, Milwaukee, WI 53207</string>
+    <string name="restaurants_address_six">221 N Water St, Milwaukee, WI 53202</string>
+    <string name="restaurants_address_seven">550 N Harbor Dr, Milwaukee, WI 53202</string>
+    <string name="restaurants_address_eight">925 E Wells St, Milwaukee, WI 53202</string>
+
+    <!-- Breweries Category Name Strings-->
+    <string name="breweries_name_one">Milwaukee Brewing Company</string>
+    <string name="breweries_name_two">District 14 Brewery</string>
+    <string name="breweries_name_three">MobCraft Beer Brewery</string>
+    <string name="breweries_name_four">Lakefront Brewery</string>
+    <string name="breweries_name_five">Enlightened Brewing Company</string>
+    <string name="breweries_name_six">Component Brewing Company</string>
+    <string name="breweries_name_seven">Good City Brewing</string>
+    <string name="breweries_name_eight">Eagle Park Brewing</string>
+    <string name="breweries_name_nine">Urban Harvest Brewing Company</string>
+    <string name="breweries_name_ten">City Lights Brewing Company</string>
+
+
+    <!-- Breweries Category Address Strings-->
+    <string name="breweries_address_one">1128 N 9th St, Milwaukee, WI 53233</string>
+    <string name="breweries_address_two">2273 S Howell Ave, Milwaukee, WI 53207</string>
+    <string name="breweries_address_three">505 S 5th St, Milwaukee, WI 53204</string>
+    <string name="breweries_address_four">1872 N Commerce St, Milwaukee, WI 53212</string>
+    <string name="breweries_address_five">2018 S 1st St, Bay View, WI 53207</string>
+    <string name="breweries_address_six">2018 S 1st St #207, Milwaukee, WI 53207</string>
+    <string name="breweries_address_seven">2108 N Farwell Ave, Milwaukee, WI 53202</string>
+    <string name="breweries_address_eight">823 E Hamilton St, Milwaukee, WI 53202</string>
+    <string name="breweries_address_nine">1024 S 5th St, Milwaukee, WI 53204</string>
+    <string name="breweries_address_ten">2200 W Mt Vernon Ave, Milwaukee, WI 53233</string>
+
+    <!-- Things To Do Category Name Strings-->
+    <string name="things_name_one">Milwaukee Art Museum</string>
+    <string name="things_name_two">Harley-Davidson Museum</string>
+    <string name="things_name_three">Milwaukee County Zoo</string>
+    <string name="things_name_four">Discovery World</string>
+    <string name="things_name_five">Miller Park/Brewers Games</string>
+    <string name="things_name_six">Fiserv Forum/Bucks Games</string>
+    <string name="things_name_seven">Henry W. Maier Festival Park</string>
+
+    <!-- Things To Do Category Address Strings-->
+    <string name="things_address_one">700 N Art Museum Dr, Milwaukee, WI 53202</string>
+    <string name="things_address_two">400 W Canal St, Milwaukee, WI 53201</string>
+    <string name="things_address_three">10001 W Bluemound Rd, Milwaukee, WI 53226</string>
+    <string name="things_address_four">500 N Harbor Dr, Milwaukee, WI 53202</string>
+    <string name="things_address_five">1 Brewers Way, Milwaukee, WI 53214</string>
+    <string name="things_address_six">1111 Vel R. Phillips Ave, Milwaukee, WI 53203</string>
+    <string name="things_address_seven">200 N Harbor Dr, Milwaukee, WI 53202</string>
+
+
+</resources>
