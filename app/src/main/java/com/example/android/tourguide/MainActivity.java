@@ -21,7 +21,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Displays a {@link ViewPager} where each page shows a different day of the week.
+ * Displays a {@link ViewPager} where each page shows a different attraction category.
  */
 public class MainActivity extends AppCompatActivity {
 

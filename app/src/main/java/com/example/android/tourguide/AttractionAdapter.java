@@ -1,7 +1,6 @@
 package com.example.android.tourguide;
 
 import android.app.Activity;
-import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +22,8 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
      * to populate into the lists.
      *
      * @param context The current context. Used to inflate the layout file.
-     * @param attractions A List of Attraction objects to display in a list
+     * @param attractions A List of Attraction objects to display in a list.
+     * @param colorResourceId The background color for the given category
      */
     public AttractionAdapter(Activity context, ArrayList<Attraction> attractions, int colorResourceId) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
@@ -89,11 +89,6 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         // Find the TextView in the list_item.xml layout with the ID address_text_view
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address_text_view);
         addressTextView.setText(currentAttraction.getAttractionAddressId());
-
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
-/*        addressTextView.setText(mContext.getResources().getString
-                (currentAttraction.getAttractionAddressId()));*/
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView

@@ -1,20 +1,17 @@
 package com.example.android.tourguide;
 
-/* {@link Attraction} represents a vocab word that the use wants to learn. It contains the default
-translation (such as English) and a Miwok translation for that word. */
+/* {@link Attraction} represents an attraction a user can visit. It contains the name of the
+attraction and the address, and in some instances an image.
+. */
 public class Attraction {
 
-    /* Default translation for the word - m-variables are private */
-    private String mAttractionName;
-
-    /* Miwok translation for the word */
-    private String mAttractionAddress;
-
+    // Resource ID for the string of the attraction name
     private int mAttractionNameId;
 
+    // Resource ID for the string of the attraction address
     private int mAttractionAddressId;
 
-    /* Integer image resource ID for the word*/
+    /* Integer image resource ID for the attraction*/
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
     /* Indicates whether the Attraction has an associated image to display*/
@@ -49,7 +46,7 @@ public class Attraction {
     }
 
     /**
-     * Returns whether or not there is an image for this word
+     * Returns whether or not there is an image for this attraction
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;

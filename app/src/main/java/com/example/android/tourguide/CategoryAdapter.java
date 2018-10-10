@@ -9,9 +9,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
 
-    //This was used previously for the Tab Titles, but using a different method now
-    //private String tabTitles[] = new String[] { "Numbers", "Family", "Colors", "Phrases" };
-
     /**
      * Create a new {@link CategoryAdapter} object.
      *
@@ -49,13 +46,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.category_bars);
         }
     }
-
-    //This worked for me, but course solution was above
-    /*@Override
-    public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
-        return tabTitles[position];
-    }*/
 
     @Override
     public int getCount() {

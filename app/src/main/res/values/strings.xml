@@ -88,7 +88,6 @@
     <string name="breweries_name_nine">Urban Harvest Brewing Company</string>
     <string name="breweries_name_ten">City Lights Brewing Company</string>
 
-
     <!-- Breweries Category Address Strings-->
     <string name="breweries_address_one">1128 N 9th St, Milwaukee, WI 53233</string>
     <string name="breweries_address_two">2273 S Howell Ave, Milwaukee, WI 53207</string>
@@ -118,6 +117,5 @@
     <string name="things_address_five">1 Brewers Way, Milwaukee, WI 53214</string>
     <string name="things_address_six">1111 Vel R. Phillips Ave, Milwaukee, WI 53203</string>
     <string name="things_address_seven">200 N Harbor Dr, Milwaukee, WI 53202</string>
-
 
 </resources>
